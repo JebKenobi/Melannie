@@ -1,9 +1,127 @@
 /*
 Theme Name:     Kadabra Child Theme
 Theme URI: 		http://themes.dfd.name/kadabra/
-Description:    Kadabra - clean creative multi-purpose theme
-Author:         Your name here
+Description:    Melannie Mag
+Author:         Jess Walker
 Author URI:		http://themes.dfd.name/
 Template:       kadabra
 Version:        1.0.0
 */
+
+/* MISC */
+@font-face {
+    font-family: 'Lovelo';
+    src: url('assets/fonts/lovelo_black.eot');
+    src: url('assets/fonts/lovelo_black.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/lovelo_black.woff') format('woff'),
+         url('assets/fonts/lovelo_black.ttf') format('truetype'),
+         url('assets/fonts/lovelo_black.svg#loveloblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* TYPOGRAPHY */
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.25em;
+}
+h1, h2, #main-wrap h2, #main-wrap h2.widget-title, #main-wrap article.post .entry-title, .search-results #main-content article .entry-title {
+	font-family: 'Arial Black', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.01em;
+}
+#main-wrap article.post .entry-title, .search-results #main-content article .entry-title {
+	font-size: 1.7em;
+	margin: 0 0 7px;
+	padding: 0;
+}
+#main-wrap #grid-posts article.post .entry-title, #grid-posts.search-results #main-content article .entry-title {
+	line-height: 1.25em;
+}
+
+#main-wrap h2, #main-wrap h2.widget-title {
+	text-align: left;
+	margin: 12px 0 7px;
+}
+#main-wrap h2.widget-title:before {
+	background: none;
+	height: 0;
+	width: 0;
+}
+
+/* HEADER */
+#main-wrap .dl-menuwrapper > .dl-trigger {
+	position: absolute;
+	right: 0%;
+	margin-left: -24px;
+	top: -71px;
+}
+.single #main-wrap .page-title-inner {
+	height: 45px;
+}
+.single #main-wrap #stuning-header {
+	background: none !important;
+	margin-top: 50px;
+}
+.single #main-wrap #layout {
+	margin-top: 0px;
+}
+.single #main-wrap .page-title-inner .breadcrumbs {
+	left: 0;
+	color: #333;
+}
+.single #main-wrap .page-title-inner .breadcrumbs > nav {
+	margin-top: 0px;
+}
+.single #main-wrap .page-title-inner .breadcrumbs .del {
+	width: 10px;
+	margin: 0 7px;
+}
+.single #main-wrap .page-title-inner .breadcrumbs .del:after {
+	background: rgba(0,0,0,0.3);
+}
+
+
+/* BODY */
+#main-wrap article.post .clearfix > .entry-meta-wrap, #main-wrap article.post .clearfix > .entry-content, #main-wrap .search-results #main-content article .clearfix > .entry-meta-wrap, #main-wrap .search-results #main-content article .clearfix > .entry-content {
+	margin-left: 0;
+}
+#main-wrap #main-content {
+	width: 70%;
+}
+
+/* Portfolio */
+
+a.read-more {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* SIDEBAR */
+
+/* Social Widget */
+#main-wrap .widget_counter_mail_subscribe .follow-widget a {
+	width: 49%;
+}
+
+/* Popular/Recent Tabs Widget */ 
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd {
+	width: 50%;
+}
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd:hover a {
+	background-color: #ececec;
+}
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd.active:hover a {
+	background-color: #5fbfe7;
+}
+
+
+/* FOOTER */
+div.logo {
+	text-align: left;
+}
+#main-wrap #footer .col-2.num-2 .widget h2, #main-wrap #footer .col-2.num-2 .widget h3, #main-wrap #footer .col-2.num-2 .widget p {
+	text-align: right;
+}

@@ -7,9 +7,6 @@ if (false === $format) {
 <article <?php post_class(); ?>>
 	
 	<div class="clearfix">
-		<div class="entry-calend-date">
-			<?php get_template_part('templates/entry-meta/post-calend-date'); ?>
-		</div>
 
 		<div class="entry-meta-wrap">
 			<?php if (DfdThemeSettings::get('post_header')) : ?>
@@ -18,7 +15,7 @@ if (false === $format) {
 				</div>
 			<?php endif; ?>
 
-			<?php get_template_part('templates/entry-meta', 'archive'); ?>
+			<?php get_template_part('templates/entry-meta', 'post'); ?>
 		</div>
 	</div>
 

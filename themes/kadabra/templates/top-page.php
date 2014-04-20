@@ -2,11 +2,12 @@
 require_once( dirname(__FILE__).'/top_stan_header.php' );
 
 ?>
-
+<?php if (!is_front_page()) { ?>
 <div class="row">
     <div class="twelve columns">
         <div id="page-title">
             <div class="page-title-inner">
+                <?php if (!is_single()) { ?>
                 <h1 class="page-title">
                     <?php
                     if (is_home()) {
@@ -50,19 +51,11 @@ require_once( dirname(__FILE__).'/top_stan_header.php' );
                         printf(__('Search Results for %s', 'dfd'), get_search_query());
                     } elseif (is_404()) {
                         _e('File Not Found', 'dfd');
-                    } elseif (is_single()) {
-                        global $post;
-                        $category = get_the_category($post->ID);
-						if (isset($category[0])) {
-							# first category name
-							echo $category[0]->name;
-						}
                     } else {
                         the_title();
                     }
                     ?>
                 </h1>
-
                 <div class="page-title-inner-subtitle">
                     <?php if ($custom_head_subtitle) {
                         echo $custom_head_subtitle;
@@ -70,7 +63,7 @@ require_once( dirname(__FILE__).'/top_stan_header.php' );
                         bloginfo( 'description' );
                     } ?>
                 </div>
-
+                <?php } ?>
                 <div class="breadcrumbs mobile-hide">
                     <?php if (function_exists('crumina_breadcrumbs')) crumina_breadcrumbs(); ?>
                 </div>
@@ -79,6 +72,7 @@ require_once( dirname(__FILE__).'/top_stan_header.php' );
         </div>
     </div>
 </div>
+<?php } ?>
 <?php if (DfdThemeSettings::get('stan_header')) {
     echo '</div>';
 } ?>

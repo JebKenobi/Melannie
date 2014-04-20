@@ -11,6 +11,7 @@ if (!empty($post) && isset($post->ID)) {
 	$custom_head_subtitle = '';
 }
 
+
 if (DfdThemeSettings::get('stan_header')) {
 	echo '<div id="stuning-header" style="';
 	
