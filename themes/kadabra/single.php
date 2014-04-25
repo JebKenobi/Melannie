@@ -13,8 +13,8 @@ get_template_part('templates/top', 'page'); ?>
         while (have_posts()) : the_post(); ?>
 
             <article <?php post_class(); ?>>
-
-				<h2 class="entry-title"><?php the_title(); ?></h2>
+            	<?php $key="superHead"; echo get_post_meta($post->ID, $key, true); ?>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
 
 				<?php
 				if (strcmp(DfdThemeSettings::get('thumb_inner_disp'), '1') === 0) {
