@@ -11,7 +11,7 @@
 					<?php get_template_part('templates/header/block', 'search'); ?>
 				</div>
 
-				<div class="header-col header-col-fluid text-center">
+				<div class="header-col menu">
 					<?php get_template_part('templates/header/block', 'main_menu'); ?>
 
 					<?php get_template_part('templates/header/block', 'responsive-menu'); ?>
