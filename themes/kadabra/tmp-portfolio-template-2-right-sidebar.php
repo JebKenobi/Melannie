@@ -3,10 +3,8 @@
   Template Name: Portfolio 2 columns + right sidebar
  */
 
-get_template_part('templates/top', 'page');
-?>
-
-
+get_template_part('templates/top', 'page'); ?>
+ 
 <section id="layout">
 
 	<div class="row">
@@ -19,6 +17,7 @@ get_template_part('templates/top', 'page');
 	</div>
 
 	<?php
+	
 	$number_per_page = (get_post_meta($post->ID, 'folio_number_to_display', true)) ? get_post_meta($post->ID, 'folio_number_to_display', true) : '16';
 
 	$selected_custom_categories = wp_get_object_terms($post->ID, 'my-product_category');

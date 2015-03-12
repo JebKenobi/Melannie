@@ -1,0 +1,721 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"page",
+				"page-title"
+			],
+			[
+				"page-tit",
+				"page-title-inner"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pr",
+				"primary_nav"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"nav",
+				"nav_trigger"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"wi",
+				"widget-title"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"header",
+				"header-col"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"section",
+				"section_3"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"lis",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "kadabra/templates/portfolio/inside-folio_inside_1.php",
+			"settings":
+			{
+				"buffer_size": 3368,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kadabra/tmp-portfolio-masonry-4mini.php",
+			"settings":
+			{
+				"buffer_size": 3887,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kadabra/tmp-portfolio-template-3mini.php",
+			"settings":
+			{
+				"buffer_size": 2691,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kadabra_child/scss/screen.scss",
+			"settings":
+			{
+				"buffer_size": 8592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kadabra_child/templates/portfolio/entry-meta.php",
+			"settings":
+			{
+				"buffer_size": 1960,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kadabra_child/single-my-product.php",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kadabra_child/footer.php",
+			"settings":
+			{
+				"buffer_size": 2857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kadabra_child/templates/portfolio/inside-folio_inside_1.php",
+			"settings":
+			{
+				"buffer_size": 3369,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/inc/post-type.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/entry-meta-portfolio.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/entry-meta/mini-author.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/portfolio/inside-folio_inside_2.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/top-folio.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/folio-terms.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/header.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/content.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/single.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/footer.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/header/block-main_menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/top-forum.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/top-page.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/header/style-1a1stlogo.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/header/style-1.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/header/style-1a.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/js/additional.js",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/header/style-1.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/templates/header/block-responsive-menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/style.css",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/config.rb",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra_child/inc/menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/inc/menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/inc/nav.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/header/block-main_menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/header/block-responsive-menu.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/assets/js/jquery.mega-menu.run.js",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/assets/js/jquery.mega-menu.js",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/header/block-search.php",
+		"/Applications/MAMP/htdocs/melannie/wp-content/themes/kadabra/templates/content-single.php",
+		"/Applications/MAMP/htdocs/koalakin/wp-content/themes/koalakin/scss/partials/_home.scss",
+		"/Applications/MAMP/htdocs/koalakin/wp-content/themes/koalakin/scss/partials/_header.scss",
+		"/Applications/MAMP/htdocs/koalakin/wp-content/themes/koalakin/functions.php",
+		"/Applications/MAMP/htdocs/koalakin/wp-content/themes/koalakin/index.php",
+		"/Applications/MAMP/htdocs/koalakin/wp-content/themes/koalakin/.git-ignore",
+		"/Users/jebiwonkenobi/Sites/princess/alaska-rail-tours-contest.htm",
+		"/Users/jebiwonkenobi/Dropbox/kkCode/sass/modules/_normalize.scss",
+		"/Users/jebiwonkenobi/Dropbox/kkCode/sass/partials/_home.scss",
+		"/Applications/MAMP/htdocs/koalakin/sass/modules/_normalize.scss",
+		"/Users/jebiwonkenobi/Sites/westmark/whitehorsehotel.php",
+		"/Users/jebiwonkenobi/Sites/westmark/anchorage-food.php",
+		"/Users/jebiwonkenobi/Sites/westmark/fairbanks-food.php",
+		"/Users/jebiwonkenobi/Sites/westmark/juneau-food.php",
+		"/Users/jebiwonkenobi/Sites/westmark/brochures.php",
+		"/Users/jebiwonkenobi/Sites/westmark/sitemap.php",
+		"/Users/jebiwonkenobi/Sites/westmark/trip-planning.php",
+		"/Users/jebiwonkenobi/Sites/westmark/video-old.php",
+		"/Users/jebiwonkenobi/Sites/westmark/header.php",
+		"/Users/jebiwonkenobi/Sites/westmark/guest-rewards.php",
+		"/Users/jebiwonkenobi/Sites/westmark/sidebar.php",
+		"/Users/jebiwonkenobi/Sites/westmark/index.php",
+		"/Users/jebiwonkenobi/Sites/westmark/all-gallery.php",
+		"/Users/jebiwonkenobi/Sites/westmark/sitemap.xml",
+		"/Users/jebiwonkenobi/Sites/westmark/fairbanks-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/whitehorsehotel-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/sitka-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/juneau-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/anchorage-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/style.css",
+		"/Users/jebiwonkenobi/Sites/westmark/skagway-specials.php",
+		"/Users/jebiwonkenobi/Sites/westmark/dawson-city-specials.php",
+		"/Users/jebiwonkenobi/Sites/gla/about_gallery.cfm",
+		"/Users/jebiwonkenobi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jebiwonkenobi/Sites/gla/grouprequest.cfm",
+		"/Users/jebiwonkenobi/Sites/gla/templates/sae_group_form.cfm",
+		"/Users/jebiwonkenobi/Desktop/temp/princess/virtual/mckinley.htm",
+		"/Users/jebiwonkenobi/Desktop/temp/gla/blog/skins/graylinealaska/archives.cfm",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/category.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/blog.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/content-blog.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/content.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/templates/why-datavail.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/functions.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/page.php",
+		"/Users/jebiwonkenobi/Desktop/temp/datavail/templates/internal-left.php",
+		"/Users/jebiwonkenobi/Desktop/backup/internal-left.php",
+		"/Users/jebiwonkenobi/Desktop/specials-slideshow.php",
+		"/Users/jebiwonkenobi/Desktop/specials-inc.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/melannie/wp-content/themes",
+			"/Users/jebiwonkenobi/Sites/westmark",
+			"/Users/jebiwonkenobi/Sites/gla",
+			"<open files>",
+			"/Users/jebiwonkenobi/Desktop/temp/datavail"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"include",
+			"calc",
+			"'supports'",
+			"control-nav",
+			"my-work-control-nav",
+			"-20%",
+			"stuning",
+			"row project",
+			"recent projects",
+			"folio",
+			"field_obj",
+			"folio-info",
+			"folio-desc-2",
+			"clients",
+			"<h1 class=\"page-title\"",
+			"blog page",
+			"portfolio-entry-hover",
+			"#stun",
+			"page-title-inner",
+			"search-s",
+			"search",
+			"icon",
+			"menu-primary-navigation-container",
+			"h1",
+			"header ",
+			"-left",
+			"260",
+			"8",
+			"content",
+			"header",
+			"breadcrumb",
+			"header",
+			"dd",
+			"widget",
+			"h3",
+			"scripts",
+			"menu",
+			"thum",
+			"content",
+			"block-responsive-menu",
+			"dl-menu",
+			"media",
+			"mega_menu",
+			"nav",
+			"act_",
+			"act",
+			"tw",
+			"twitt",
+			"h1",
+			"’",
+			"></a>",
+			"whitehorse.php",
+			"whitehorse.",
+			"conference-",
+			"whitehorse.ph",
+			"white",
+			"bea",
+			"tok",
+			"sightseeingtours.cfm",
+			"tour",
+			"sightseeing",
+			"sightseeing.cfm",
+			"sigh",
+			"Luxury Denali",
+			"Discover Alaska Now",
+			"Let someone else drive",
+			"include",
+			"multi",
+			"decimal",
+			"subm",
+			"double",
+			"mckinley-gl",
+			"mckinley-g",
+			"<img src=\"/images/fairbanks-side-img.jpg\" width=\"190\" vspace=\"10\" hspace=\"7\" />",
+			"mango:",
+			"h1",
+			"get",
+			"/blog",
+			"blog",
+			"/blog",
+			"blog",
+			"child",
+			"news-events",
+			"news"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"menu_container",
+			"'",
+			"whitehorsehotel.php",
+			"<img src=\"/images/fairbanks-side-img.jpg\" width=\"190\" vspace=\"10\" hspace=\"7\" alt=\"Alaska Chena river with Fall foliage - Princess Lodges\" />"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "kadabra/templates/portfolio/inside-folio_inside_1.php",
+					"settings":
+					{
+						"buffer_size": 3368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1212.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "kadabra/tmp-portfolio-masonry-4mini.php",
+					"settings":
+					{
+						"buffer_size": 3887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								3875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "kadabra/tmp-portfolio-template-3mini.php",
+					"settings":
+					{
+						"buffer_size": 2691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 983.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "kadabra_child/scss/screen.scss",
+					"settings":
+					{
+						"buffer_size": 8592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "kadabra_child/templates/portfolio/entry-meta.php",
+					"settings":
+					{
+						"buffer_size": 1960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1045,
+								1045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "kadabra_child/single-my-product.php",
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "kadabra_child/footer.php",
+					"settings":
+					{
+						"buffer_size": 2857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 697.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "kadabra_child/templates/portfolio/inside-folio_inside_1.php",
+					"settings":
+					{
+						"buffer_size": 3369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2552,
+								2552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}

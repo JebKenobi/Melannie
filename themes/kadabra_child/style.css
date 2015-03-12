@@ -7,7 +7,7 @@ Author URI:		http://themes.dfd.name/
 Template:       kadabra
 Version:        1.0.0
 */
-
+@import url(css/screen.css);
 /* MISC */
 @font-face {
     font-family: 'Lovelo';
@@ -37,130 +37,8 @@ h1, h2, #main-wrap h2, #main-wrap h2.widget-title, #main-wrap article.post .entr
 	letter-spacing: -0.01em;
 }
 
-#main-wrap article.post .entry-title, .search-results #main-content article .entry-title {
-	font-size: 1.7em;
-	margin: 0 0 15px;
-	padding: 0;
-}
-#main-wrap #grid-posts article.post .entry-title, #grid-posts.search-results #main-content article .entry-title {
-	line-height: 1.25em;
-}
-
-#main-wrap h2, #main-wrap h2.widget-title {
-	text-align: left;
-	margin: 12px 0 7px;
-}
-#main-wrap h2.widget-title:before {
-	background: none;
-	height: 0;
-	width: 0;
-}
-#main-wrap article.post p {
-	margin: 7px 0 10px;
-}
-#main-wrap article.post h2.superHead {
-	text-transform: uppercase;
-	font-size: 1em;
-	color: #bbb;
-	margin-bottom: 3px;
-}
-/* HEADER */
-#main-wrap #header .header-col.menu .dl-menuwrapper {
-	display: block;
-}
-.single #main-wrap .page-title-inner {
-	height: 45px;
-}
-.single #main-wrap #stuning-header {
-	background: none !important;
-	margin-top: 50px;
-}
-.single #main-wrap #layout {
-	margin-top: 0px;
-}
-.single #main-wrap .page-title-inner .breadcrumbs {
-	left: 0;
-	color: #333;
-	max-width: 100%;
-}
-.single #main-wrap .page-title-inner .breadcrumbs > nav {
-	margin-top: 0px;
-}
-.single #main-wrap .page-title-inner .breadcrumbs .del {
-	width: 10px;
-	margin: 0 7px;
-}
-.single #main-wrap .page-title-inner .breadcrumbs .del:after {
-	background: rgba(0,0,0,0.3);
-}
-#main-wrap nav.mega-menu {
-	display: none;
-}
-#main-wrap .header-col.text-center, #main-wrap .header-col.menu {
-	padding:0;
-	margin:0;
-	width:auto;
-}
-#main-wrap .dl-menuwrapper {
-	display: block;
-	right:20px;
-	left: auto;
-}
-#main-wrap .dl-menuwrapper > .dl-trigger {
-	margin:0;
-	left: auto;
-	right:0;
-}
-
-/* BODY */
-#main-wrap article.post .clearfix > .entry-meta-wrap, #main-wrap article.post .clearfix > .entry-content, #main-wrap .search-results #main-content article .clearfix > .entry-meta-wrap, #main-wrap .search-results #main-content article .clearfix > .entry-content {
-	margin-left: 0;
-}
-#main-wrap #main-content {
-	width: 70%;
-}
-#main-wrap article.post .entry-content p {
-	margin: 0px 0 20px;
-	font-size: 1.1em;
-	line-height: 1.5em;
-}
-
-/* Portfolio */
-
 a.read-more {
 	background-color: rgba(255, 255, 255, 0.6);
-}
-
-/* SIDEBAR */
-
-/* Social Widget */
-#main-wrap .widget_counter_mail_subscribe .follow-widget a {
-	width: 49%;
-	background: #333;
-	text-shadow: none;
-	color: #fff;
-}
-#main-wrap .widget_counter_mail_subscribe .follow-widget a span.text {
-	color: #fff;
-}
-#main-wrap .widget_counter_mail_subscribe .follow-widget a.tw:hover {
-	background: #50b3e5;
-	text-shadow: 0 1px 0 #4ca8d6;
-}
-#main-wrap .widget_counter_mail_subscribe .follow-widget a.fb:hover {
-	background: #7a90b7;
-	text-shadow: 0 1px 0 #6d81a5;
-}
-
-/* Popular/Recent Tabs Widget */ 
-#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd {
-	width: 50%;
-}
-#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd:hover a {
-	background-color: #ececec;
-}
-#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd.active:hover a {
-	background-color: #5fbfe7;
 }
 
 
@@ -168,6 +46,9 @@ a.read-more {
 div.logo {
 	text-align: left;
 }
-#main-wrap #footer .col-2.num-2 .widget h2, #main-wrap #footer .col-2.num-2 .widget h3, #main-wrap #footer .col-2.num-2 .widget p {
-	text-align: right;
+
+@media only screen and (max-width: 800px) {
+	#main-wrap #main-content {
+		width: 100%;
+	}
 }

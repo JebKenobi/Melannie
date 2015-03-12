@@ -1,0 +1,571 @@
+@import url(https://fontastic.s3.amazonaws.com/QZ3Xb2iMdrRxLpW4Gi5HsX/icons.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../scss/screen.scss */
+#main-wrap, #main-content {
+  /* Social Widget */
+  /* Popular/Recent Tabs Widget */
+}
+/* line 10, ../scss/screen.scss */
+#main-wrap #grid-posts article.post .entry-title, #main-wrap #grid-posts article.post .entry-title, #main-wrap article .entry-title, #main-content #grid-posts article.post .entry-title, #main-content #grid-posts article.post .entry-title, #main-content article .entry-title {
+  font-size: 1.7em;
+  margin: 0 0 15px;
+  padding: 0;
+  line-height: 1.25em;
+}
+/* line 16, ../scss/screen.scss */
+#main-wrap h2, #main-wrap h2.widget-title, #main-content h2, #main-content h2.widget-title {
+  text-align: left;
+  margin: 12px 0 7px;
+}
+/* line 20, ../scss/screen.scss */
+#main-wrap h1.page-title, #main-content h1.page-title {
+  margin-top: 0;
+}
+/* line 23, ../scss/screen.scss */
+#main-wrap h2.widget-title:before, #main-content h2.widget-title:before {
+  background: none;
+  height: 0;
+  width: 0;
+}
+/* line 28, ../scss/screen.scss */
+#main-wrap .widget .widget-title, #main-wrap .widget ul, #main-content .widget .widget-title, #main-content .widget ul {
+  text-align: left;
+}
+/* line 32, ../scss/screen.scss */
+#main-wrap article.post p, #main-content article.post p {
+  margin: 7px 0 10px;
+}
+/* line 35, ../scss/screen.scss */
+#main-wrap article.post h2.superHead, #main-content article.post h2.superHead {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #bbb;
+  margin-bottom: 3px;
+}
+/* line 42, ../scss/screen.scss */
+#main-wrap #stuning-header, #main-content #stuning-header {
+  background: none !important;
+  margin-top: 50px;
+}
+/* line 46, ../scss/screen.scss */
+#main-wrap .page-title-inner, #main-content .page-title-inner {
+  height: auto;
+}
+/* line 49, ../scss/screen.scss */
+#main-wrap .page-title-inner .breadcrumbs, #main-content .page-title-inner .breadcrumbs {
+  display: none;
+}
+/* line 53, ../scss/screen.scss */
+#main-wrap .header-col-left h1.site-title a, #main-content .header-col-left h1.site-title a {
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Roboto, 'Trebuchet MS', Frutiger, 'Frutiger Linotype', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  letter-spacing: -2px;
+  display: block;
+  padding: 12px 0 0;
+  position: relative;
+  z-index: 999;
+}
+/* line 65, ../scss/screen.scss */
+#main-wrap .header-col-left h1.site-title a strong, #main-content .header-col-left h1.site-title a strong {
+  font-weight: bolder;
+  font-family: 'Arial Black', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+/* line 71, ../scss/screen.scss */
+#main-wrap #layout, #main-content #layout {
+  left: 0;
+  position: relative;
+  -webkit-transition: left, 0.4s;
+  -moz-transition: left, 0.4s;
+  -o-transition: left, 0.4s;
+  transition: left, 0.4s;
+  margin-top: 0;
+}
+/* line 77, ../scss/screen.scss */
+#main-wrap #layout #grid-folio, #main-wrap #layout .recent-works-list, #main-content #layout #grid-folio, #main-content #layout .recent-works-list {
+  height: auto !important;
+  margin-bottom: 10px;
+}
+/* line 82, ../scss/screen.scss */
+#main-wrap #layout #grid-folio .project .portfolio-entry-hover a, #main-wrap #layout .recent-works-list .project .portfolio-entry-hover a, #main-content #layout #grid-folio .project .portfolio-entry-hover a, #main-content #layout .recent-works-list .project .portfolio-entry-hover a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+}
+/* line 94, ../scss/screen.scss */
+#main-wrap #layout #grid-folio .project .portfolio-entry-hover a i, #main-wrap #layout .recent-works-list .project .portfolio-entry-hover a i, #main-content #layout #grid-folio .project .portfolio-entry-hover a i, #main-content #layout .recent-works-list .project .portfolio-entry-hover a i {
+  display: none;
+}
+/* line 98, ../scss/screen.scss */
+#main-wrap #layout #grid-folio .project .portfolio-entry-hover a:hover, #main-wrap #layout .recent-works-list .project .portfolio-entry-hover a:hover, #main-content #layout #grid-folio .project .portfolio-entry-hover a:hover, #main-content #layout .recent-works-list .project .portfolio-entry-hover a:hover {
+  background-color: transparent;
+}
+/* line 103, ../scss/screen.scss */
+#main-wrap #layout #grid-folio .project .portfolio-entry-meta .social-share, #main-wrap #layout .recent-works-list .project .portfolio-entry-meta .social-share, #main-content #layout #grid-folio .project .portfolio-entry-meta .social-share, #main-content #layout .recent-works-list .project .portfolio-entry-meta .social-share {
+  display: none;
+}
+/* line 106, ../scss/screen.scss */
+#main-wrap #layout #grid-folio .project .portfolio-entry-meta .nine, #main-wrap #layout .recent-works-list .project .portfolio-entry-meta .nine, #main-content #layout #grid-folio .project .portfolio-entry-meta .nine, #main-content #layout .recent-works-list .project .portfolio-entry-meta .nine {
+  width: 100%;
+}
+/* line 113, ../scss/screen.scss */
+#main-wrap #layout #grid-folio.col-4 .project, #main-content #layout #grid-folio.col-4 .project {
+  position: relative !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 118, ../scss/screen.scss */
+#main-wrap #layout #grid-folio.col-4 .project .entry-thumb, #main-content #layout #grid-folio.col-4 .project .entry-thumb {
+  margin-bottom: 0;
+}
+/* line 122, ../scss/screen.scss */
+#main-wrap #layout dl.tabs dd a[href="#folio-desc-2"], #main-content #layout dl.tabs dd a[href="#folio-desc-2"] {
+  display: none;
+}
+/* line 126, ../scss/screen.scss */
+#main-wrap #layout .folio-info .entry-meta, #main-content #layout .folio-info .entry-meta {
+  height: auto;
+}
+/* line 129, ../scss/screen.scss */
+#main-wrap #layout .folio-info .entry-tags, #main-content #layout .folio-info .entry-tags {
+  text-align: left;
+  padding-left: 0;
+}
+/* line 135, ../scss/screen.scss */
+#main-wrap .page-title-inner, #main-content .page-title-inner {
+  overflow: visible;
+}
+/* line 138, ../scss/screen.scss */
+#main-wrap .page-title-inner .breadcrumbs, #main-content .page-title-inner .breadcrumbs {
+  position: relative;
+  left: 40px;
+  top: -5px;
+  float: left;
+}
+/* line 144, ../scss/screen.scss */
+#main-wrap .page-title-inner .page-title-inner-subtitle, #main-content .page-title-inner .page-title-inner-subtitle {
+  display: none;
+}
+/* line 147, ../scss/screen.scss */
+#main-wrap #primary_nav, #main-content #primary_nav {
+  float: right;
+}
+/* line 150, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container, #main-content #primary_nav .menu_container {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  right: -300px;
+  background: #333;
+  padding: 0px;
+  top: 0px;
+  z-index: 998;
+  -webkit-transition: right, 0.4s;
+  -moz-transition: right, 0.4s;
+  -o-transition: right, 0.4s;
+  transition: right, 0.4s;
+}
+/* line 161, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .menu-primary-navigation-container, #main-content #primary_nav .menu_container .menu-primary-navigation-container {
+  clear: both;
+  width: 100%;
+  margin-top: 58px;
+}
+/* line 166, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation, #main-content #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation {
+  width: 100%;
+}
+/* line 168, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation li a, #main-content #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation li a {
+  width: 100%;
+  padding: 15px 10%;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  margin-bottom: 1px;
+}
+/* line 176, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation li a:hover, #main-content #primary_nav .menu_container .menu-primary-navigation-container #menu-primary-navigation li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* line 181, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .form-search-wrap, #main-content #primary_nav .menu_container .form-search-wrap {
+  clear: both;
+  margin: 0px auto 20px;
+  width: 100%;
+  padding: 58px 0px 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 189, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .form-search-wrap .searchsubmit-icon, #main-content #primary_nav .menu_container .form-search-wrap .searchsubmit-icon {
+  color: #fff;
+}
+/* line 192, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .form-search-wrap .form-search-container .form-search, #main-content #primary_nav .menu_container .form-search-wrap .form-search-container .form-search {
+  top: 18px;
+  right: 20px;
+}
+/* line 197, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container .form-search-container .form-search input.search-query, #main-content #primary_nav .menu_container .form-search-container .form-search input.search-query {
+  width: 207px !important;
+  display: inline-block !important;
+}
+/* line 201, ../scss/screen.scss */
+#main-wrap #primary_nav .menu_container p.contact_info, #main-content #primary_nav .menu_container p.contact_info {
+  color: #fff;
+  text-align: left;
+  margin: 15px 30px;
+}
+/* line 207, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger, #main-content #primary_nav .nav_trigger {
+  margin: 20px 0 0;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 999;
+  width: 80px;
+  right: 0;
+  -webkit-transition: position, 0.4s;
+  -moz-transition: position, 0.4s;
+  -o-transition: position, 0.4s;
+  transition: position, 0.4s;
+}
+/* line 218, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger.inactive, #main-content #primary_nav .nav_trigger.inactive {
+  color: #333333;
+}
+/* line 221, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger.active, #main-content #primary_nav .nav_trigger.active {
+  color: white;
+  position: fixed;
+  right: 13px;
+}
+/* line 226, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger:hover, #main-content #primary_nav .nav_trigger:hover {
+  color: #5fbfe7 !important;
+}
+/* line 229, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger:hover::after, #main-content #primary_nav .nav_trigger:hover::after {
+  border-color: #5fbfe7;
+}
+/* line 232, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger::after, #main-content #primary_nav .nav_trigger::after {
+  content: 'a';
+  font-family: s-epic;
+  font-size: 1.3em;
+  display: inline-block;
+  padding: 2px 2px 0;
+  border-radius: 3px;
+  border: 1px solid #333;
+  margin: -5px 0 0 7px;
+  height: 22px;
+  vertical-align: middle;
+  text-transform: none;
+}
+/* line 245, ../scss/screen.scss */
+#main-wrap #primary_nav .nav_trigger.active::after, #main-content #primary_nav .nav_trigger.active::after {
+  content: 'x';
+  border-color: #fff;
+  height: auto;
+  padding: 0 6px;
+  line-height: 20px;
+}
+/* line 253, ../scss/screen.scss */
+#main-wrap #header .header-col.menu .dl-menuwrapper, #main-content #header .header-col.menu .dl-menuwrapper {
+  display: block;
+}
+/* line 257, ../scss/screen.scss */
+#main-wrap #header .header-col, #main-content #header .header-col {
+  z-index: auto;
+}
+/* line 260, ../scss/screen.scss */
+#main-wrap #header .header-wrap, #main-content #header .header-wrap {
+  background-color: #f6f6f6;
+}
+/* line 263, ../scss/screen.scss */
+#main-wrap #header .search_landing, #main-content #header .search_landing {
+  float: right;
+  display: inline-block;
+}
+/* line 267, ../scss/screen.scss */
+#main-wrap #header .header-col, #main-wrap #header nav.mega-menu, #main-content #header .header-col, #main-content #header nav.mega-menu {
+  height: 58px;
+  min-height: 58px;
+}
+/* line 272, ../scss/screen.scss */
+#main-wrap .header-col.text-center, #main-wrap #main-wrap .header-col.menu, #main-content .header-col.text-center, #main-content #main-wrap .header-col.menu {
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+/* line 278, ../scss/screen.scss */
+#main-wrap article.post .clearfix > .entry-meta-wrap, #main-wrap article.post .clearfix > .entry-content, #main-wrap .search-results #main-content article .clearfix > .entry-meta-wrap, #main-wrap .search-results #main-content article .clearfix > .entry-content, #main-content article.post .clearfix > .entry-meta-wrap, #main-content article.post .clearfix > .entry-content, #main-content .search-results #main-content article .clearfix > .entry-meta-wrap, #main-content .search-results #main-content article .clearfix > .entry-content {
+  margin-left: 0;
+}
+/* line 281, ../scss/screen.scss */
+#main-wrap #main-content, #main-content #main-content {
+  width: 70%;
+}
+/* line 284, ../scss/screen.scss */
+#main-wrap article.post .entry-content p, #main-content article.post .entry-content p {
+  margin: 0px 0 20px;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+/* line 291, ../scss/screen.scss */
+#main-wrap .row.bio li .team_member_box, #main-content .row.bio li .team_member_box {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  margin-top: 20px;
+  max-width: 100%;
+  margin-right: 20px;
+}
+/* line 299, ../scss/screen.scss */
+#main-wrap .row.bio li .team_member_bio, #main-content .row.bio li .team_member_bio {
+  display: inline-block;
+  width: -moz-calc(100% - 450px);
+  width: -webkit-calc(100% - 450px);
+  width: -o-calc(100% - 450px);
+  width: calc(100% - 450px);
+  vertical-align: top;
+  min-width: 600px;
+  margin-left: 20px;
+}
+/* line 309, ../scss/screen.scss */
+#main-wrap .row.bio li .team_member_bio h2 span, #main-content .row.bio li .team_member_bio h2 span {
+  font-weight: 300;
+  color: #696969;
+  font-family: "Roboto", "Trebuchet MS", Frutiger, "Frutiger Linotype", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 317, ../scss/screen.scss */
+#main-wrap .folio-info, #main-content .folio-info {
+  text-align: left;
+}
+/* line 320, ../scss/screen.scss */
+#main-wrap h3.widget-title:before, #main-content h3.widget-title:before {
+  background: none;
+  border: none;
+  width: 0;
+  height: 0;
+}
+/* line 328, ../scss/screen.scss */
+#main-wrap .widget_counter_mail_subscribe .follow-widget a, #main-content .widget_counter_mail_subscribe .follow-widget a {
+  width: 49%;
+  background: #333;
+  text-shadow: none;
+  color: #fff;
+}
+/* line 334, ../scss/screen.scss */
+#main-wrap .widget_counter_mail_subscribe .follow-widget a span.text, #main-content .widget_counter_mail_subscribe .follow-widget a span.text {
+  color: #fff;
+}
+/* line 337, ../scss/screen.scss */
+#main-wrap .widget_counter_mail_subscribe .follow-widget a.tw:hover, #main-content .widget_counter_mail_subscribe .follow-widget a.tw:hover {
+  background: #50b3e5;
+  text-shadow: 0 1px 0 #4ca8d6;
+}
+/* line 341, ../scss/screen.scss */
+#main-wrap .widget_counter_mail_subscribe .follow-widget a.fb:hover, #main-content .widget_counter_mail_subscribe .follow-widget a.fb:hover {
+  background: #7a90b7;
+  text-shadow: 0 1px 0 #6d81a5;
+}
+/* line 347, ../scss/screen.scss */
+#main-wrap .my-work-control-nav.my-work-control-thumbs li img, #main-content .my-work-control-nav.my-work-control-thumbs li img {
+  width: 126px;
+  height: auto;
+}
+/* line 354, ../scss/screen.scss */
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd, #main-content .widget_crum_widget_tabs .tabs.horisontal dd {
+  width: 50%;
+}
+/* line 357, ../scss/screen.scss */
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal dd:hover a, #main-wrap .widget_crum_widget_tabs .tabs.horisontal dd.active a, #main-content .widget_crum_widget_tabs .tabs.horisontal dd:hover a, #main-content .widget_crum_widget_tabs .tabs.horisontal dd.active a {
+  background-color: #ececec;
+  color: #595959;
+  border: none;
+}
+/* line 362, ../scss/screen.scss */
+#main-wrap .widget_crum_widget_tabs .tabs.horisontal a, #main-content .widget_crum_widget_tabs .tabs.horisontal a {
+  background-color: #5fbfe7;
+  color: #fff;
+}
+/* line 368, ../scss/screen.scss */
+#main-wrap #footer .col-2.num-2 .widget h2, #main-wrap #footer .col-2.num-2 .widget h3, #main-wrap #footer .col-2.num-2 .widget p, #main-content #footer .col-2.num-2 .widget h2, #main-content #footer .col-2.num-2 .widget h3, #main-content #footer .col-2.num-2 .widget p {
+  text-align: left;
+}
+/* line 372, ../scss/screen.scss */
+#main-wrap #footer, #main-content #footer {
+  display: none;
+}
+
+/* Front */
+/* line 379, ../scss/screen.scss */
+.home #main-wrap #stuning-header {
+  display: none;
+}
+/* line 382, ../scss/screen.scss */
+.home #main-wrap #layout {
+  margin-top: 80px;
+}
+/* line 385, ../scss/screen.scss */
+.home #main-wrap #header-container {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* line 393, ../scss/screen.scss */
+.single-my-product #main-wrap div.sort-panel, .single-my-product #main-wrap div.pages-nav {
+  display: none;
+}
+/* line 397, ../scss/screen.scss */
+.single-my-product #main-wrap #folio-desc-1Tab ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-bottom: 20px;
+}
+/* line 403, ../scss/screen.scss */
+.single-my-product #main-wrap div.recent-works-list {
+  width: 1200px;
+  margin: 0 auto !important;
+  max-width: 100%;
+  min-width: 768px;
+  position: relative;
+}
+/* line 410, ../scss/screen.scss */
+.single-my-product #main-wrap div.recent-works-list div.project {
+  width: 25% !important;
+}
+/* line 413, ../scss/screen.scss */
+.single-my-product #main-wrap div.recent-works-list div.project .portfolio-entry-meta-info {
+  text-align: left;
+}
+/* line 416, ../scss/screen.scss */
+.single-my-product #main-wrap div.recent-works-list div.project .portfolio-entry-meta-info .entry-tags ul, .single-my-product #main-wrap div.recent-works-list div.project .portfolio-entry-meta-info .title {
+  line-height: 1em;
+}
+/* line 419, ../scss/screen.scss */
+.single-my-product #main-wrap div.recent-works-list div.project .portfolio-entry-meta-info .entry-tags ul li:before {
+  line-height: 2em;
+}
+/* line 425, ../scss/screen.scss */
+.single-my-product #main-wrap .recent-block {
+  margin-top: 20px;
+}
+/* line 428, ../scss/screen.scss */
+.single-my-product #main-wrap .recent-block h3.widget-title {
+  text-align: left;
+}
+
+/* Single */
+/* line 436, ../scss/screen.scss */
+.single #main-wrap .page-title-inner {
+  height: 45px;
+}
+/* line 439, ../scss/screen.scss */
+.single #main-wrap #stuning-header {
+  background: none !important;
+  margin-top: 50px;
+}
+/* line 443, ../scss/screen.scss */
+.single #main-wrap #layout {
+  margin-top: 0px;
+}
+/* line 446, ../scss/screen.scss */
+.single #main-wrap .page-title-inner .breadcrumbs {
+  left: 0;
+  color: #333;
+  max-width: 100%;
+}
+/* line 451, ../scss/screen.scss */
+.single #main-wrap .page-title-inner .breadcrumbs > nav {
+  margin-top: 0px;
+}
+/* line 454, ../scss/screen.scss */
+.single #main-wrap .page-title-inner .breadcrumbs .del {
+  width: 10px;
+  margin: 0 7px;
+}
+/* line 458, ../scss/screen.scss */
+.single #main-wrap .page-title-inner .breadcrumbs .del:after {
+  background: rgba(0, 0, 0, 0.3);
+}

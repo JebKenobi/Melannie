@@ -1,0 +1,65 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import url(https://fontastic.s3.amazonaws.com/QZ3Xb2iMdrRxLpW4Gi5HsX/icons.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+/* MISC */
+@font-face {
+    font-family: 'Lovelo';
+    src: url('assets/fonts/lovelo_black.eot');
+    src: url('assets/fonts/lovelo_black.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/lovelo_black.woff') format('woff'),
+         url('assets/fonts/lovelo_black.ttf') format('truetype'),
+         url('assets/fonts/lovelo_black.svg#loveloblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+iframe {
+	border: none;
+}
+
+/* TYPOGRAPHY */
+body {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: lighter;
+	color:#222;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+h1, h2, h3 {
+	font-family: 'Lovelo', Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+}
+h1 {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+h2 {
+	font-size: 1.25em;
+	line-height: 1em;
+}
+a {
+	text-decoration: none;
+}
+
+a.read-more {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* FOOTER */
+div.logo {
+	text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+	#main-wrap #main-content {
+		width: 100%;
+	}
+}
